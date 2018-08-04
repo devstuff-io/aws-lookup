@@ -1,4 +1,4 @@
 aws-decorators
 boto3
 spylogger[pretty]
-# spylogger==1.2.2
+jmespath

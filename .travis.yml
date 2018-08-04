@@ -1,0 +1,16 @@
+language: python
+python:
+  - "2.7"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+env:
+  global:
+  - AWS_ACCESS_KEY_ID=FAKE
+  - AWS_SECRET_ACCESS_KEY=NEWS
+script:
+  - make test
+
+
+
+
