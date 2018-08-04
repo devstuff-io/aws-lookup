@@ -15,6 +15,10 @@ scrub: clean
 	rm -rf htmlcov
 	rm -f .coverage
 
+test: install
+	pip install -r requirements-test.pip
+	sh run-tests.sh
+
 # pypi-setup: clean
 # 	pip install twine
 # 	python setup.py sdist bdist_wheel
