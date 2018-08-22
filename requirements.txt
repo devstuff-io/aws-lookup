@@ -1,4 +1,4 @@
 aws-decorators
 boto3
-spylogger[pretty]
 jmespath
+spylogger[pretty]

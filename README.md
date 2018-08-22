@@ -19,6 +19,12 @@ option 2:
 aws-lookup {service} {object-name} {search-string} [extra-things] [options]
 ```
 
+option 3:
+
+```bash
+aws-lookup {service} {object-name}[:{search-string}] [extra-things] [options]
+```
+
 * support wildcards
   - [filtering-results-with-jmespath](http://boto3.readthedocs.io/en/latest/guide/paginators.html#filtering-results-with-jmespath)
   - [fnmatch](https://docs.python.org/3/library/fnmatch.html)
