@@ -33,3 +33,16 @@ aws-lookup {service} {object-name}[:{search-string}] [extra-things] [options]
 
 
 ### Use it in a python project
+
+
+## CLI
+
+#### Usage
+
+````
+Usage: aws-lookup [OPTIONS] [CLIENT] COMMAND [ARGS]...
+
+Options:
+  --version      print the aws-lookup version and exit
+  ?, -h, --help  Show this message and exit.
+````
