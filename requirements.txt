@@ -1,4 +1,6 @@
 aws-decorators
 boto3
+click
 jmespath
+pretty-json
 spylogger[pretty]

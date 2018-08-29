@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 VERSION = open(os.path.join(BASEDIR, 'VERSION')).read().strip()
@@ -26,7 +26,7 @@ setup(
     name='aws-lookup',
     version=VERSION,
     license='MIT',
-    packages=['aws_lookup'],
+    packages=find_packages(),
     include_package_data=True,
     description=DESCRIPTION,
     long_description=DESCRIPTION,
@@ -46,5 +46,10 @@ setup(
         'Programming Language :: Python',
         'Topic :: System :: Software Distribution',
         'Topic :: Utilities'
-    ]
+    ],
+    entry_points={
+        'console_scripts': [
+            'aws-lookup=aws_lookup.cli:cli'
+        ]
+    },
 )

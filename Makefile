@@ -1,4 +1,4 @@
-install:
+install: scrub
 	pip install --editable .
 
 clean:
