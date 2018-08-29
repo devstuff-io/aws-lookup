@@ -4,7 +4,7 @@ from click.testing import CliRunner
 
 from aws_lookup import cli as aws_lookup_cli
 
-CMD_OPTS = ['--version', ' -h, ?, --help']
+CMD_OPTS = ['--version', '-h,', '?,', '--help']
 
 
 class CLITest(TestCase):
